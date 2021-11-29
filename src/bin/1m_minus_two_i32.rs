@@ -1,6 +1,6 @@
 fn main() {
     unsafe {
-        let address = (1024 * 1024 - 2) as *mut u8;
+        let address = (1024 * 1024 - 3) as *mut i32;
         let n = *address;
         println!("{}", n);
     }

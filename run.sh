@@ -5,8 +5,10 @@ cargo build --target wasm32-wasi --release
 arr=(
     64k
     64k_plus_one
-    1m_minus_one
+    1m_minus_four_i32
+    1m_minus_two_i32
     1m
+    1m_plus_one
     1m_plus_64k
     1m_plus_64k_plus_one
     2m
